@@ -1,0 +1,69 @@
+@import 'helpers.css';
+@import 'header.css';
+@import 'nav.css';
+@import 'btn.css';
+@import 'hero.css';
+@import 'section.css';
+@import 'info.css';
+@import 'benefits.css';
+@import 'tech-list.css';
+@import 'random-text.css';
+@import 'badge.css';
+@import 'reviews.css';
+@import 'slider.css';
+@import 'gallery.css';
+
+:root {
+  --primary: #2c3038;
+  --light: #fff;
+  --gray-text: #888e95;
+  --green: #2ebb79;
+  --pink-light: #e0416e;
+  --pink-dark: #a6002f;
+
+  --header-z: 1000;
+
+  --letter-spacing: -3%;
+}
+
+/* рекомендуется прописувати размер на шрифт документа 62.5% для того щоб потом можна було оперировать rem, em-мами*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+
+  font-family: 'Manrope', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* и тепер коли ми прописуємо 1.6rem то это 16пикселей */
+  font-size: 1.6rem;
+  color: var(--primary);
+
+  background-color: var(--primary);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1410px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
