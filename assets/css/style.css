@@ -14,6 +14,9 @@
 @import 'gallery.css';
 @import 'products.css';
 @import 'price.css';
+@import 'footer.css';
+@import 'social-list.css';
+@import 'move-up.css';
 
 :root {
   --primary: #2c3038;
@@ -24,7 +27,7 @@
   --pink-dark: #a6002f;
 
   --header-z: 1000;
-
+  --moveup-z: 1010;
   --letter-spacing: -3%;
 }
 

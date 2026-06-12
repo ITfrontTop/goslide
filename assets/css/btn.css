@@ -40,6 +40,7 @@
     var(--pink-light),
     var(--pink-dark)
   );
+  box-shadow: 0 4px 10px rgba(36, 36, 36, 0.3);
 
   font-size: 3.2rem;
   color: var(--light);
