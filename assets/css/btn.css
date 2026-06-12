@@ -3,7 +3,7 @@
   align-items: center;
   padding: 0.8125em 1.75em;
 
-  /* це прописуєм щоб шрифт унаследовався от body, а не стандартний */
+  /* це прописуем щоб шрифт унаследовався от body, а не стандартний */
   font-family: inherit;
 
   font-size: 1.6rem;
@@ -15,12 +15,27 @@
   background-color: var(--light);
 
   border-radius: 2.75em;
+  transition:
+    background-color 0.2s linear,
+    color 0.2s linear;
+
+  &:hover {
+    background-color: var(--primary);
+    color: var(--light);
+
+    .btn-icon {
+      stroke: var(--light);
+    }
+  }
 }
 
 .btn-icon {
   width: 1.25em;
   height: 1.25em;
   margin-right: 0.5em;
+
+  stroke: var(--primary);
+  transition: stroke 0.2s linear;
 }
 
 .btn--large {
@@ -49,6 +64,8 @@
   .btn-icon {
     width: 3.4rem;
     height: 3.4rem;
+
+    stroke: var(--light);
   }
 }
 
@@ -66,6 +83,7 @@
 .btn-primary-icon {
   width: 2.4rem;
   height: 2.4rem;
-
   margin-left: 1rem;
+
+  stroke: var(--light);
 }
