@@ -34,8 +34,8 @@
   letter-spacing: var(--letter-spacing);
   text-decoration: none;
 
-  &:hover {
-    text-decoration: underline;
+  &::after {
+    height: 2px;
   }
 }
 
@@ -61,10 +61,6 @@
   line-height: 1.1;
   color: var(--gray-text);
   text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 .footer-payments {

@@ -35,6 +35,8 @@
 
 html {
   font-size: 62.5%;
+  /* щоб скрол по сторінці був плавний потрібно прописати  scroll-behavior: smooth;*/
+  scroll-behavior: smooth;
 }
 
 body {

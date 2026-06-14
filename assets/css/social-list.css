@@ -19,12 +19,17 @@
   border-radius: 50%;
   transition: background-color 0.2s linear;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: var(--primary);
 
     .social-link-icon {
       stroke: var(--light);
     }
+  }
+
+  &:focus {
+    outline: none;
   }
 }
 
