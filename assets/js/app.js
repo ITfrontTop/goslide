@@ -53,3 +53,5 @@ if (burgerBtn && navList) {
 
 // gallery fade slider
 // !!!!!!!!!!!зробити!!!!!!!!!!!!
+// if (count === 4) count = 1;
+// використати timeout

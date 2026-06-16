@@ -1,5 +1,6 @@
 .price {
   margin-bottom: 3rem;
+
   text-align: center;
   font-size: 9.6rem;
   color: var(--primary);
@@ -11,5 +12,15 @@
     margin-right: 2rem;
     font-size: 6.4rem;
     opacity: 0.6;
+  }
+}
+
+@media (max-width: 768px) {
+  .price {
+    font-size: 4.8rem;
+
+    s {
+      font-size: 4rem;
+    }
   }
 }

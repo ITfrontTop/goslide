@@ -1,6 +1,8 @@
 .social-list {
   display: flex;
   list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .social-list-item {
@@ -40,4 +42,7 @@
 
   stroke: var(--gray-text);
   transition: stroke 0.2s linear;
+}
+
+@media (max-width: 768px) {
 }

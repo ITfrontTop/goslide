@@ -68,6 +68,50 @@
   justify-content: flex-end;
   align-items: center;
   gap: 2rem;
+  padding-left: 0;
 
   list-style: none;
+}
+
+@media (max-width: 768px) {
+  .footer-contacts {
+    flex-direction: column;
+    padding: 7rem 0;
+
+    text-align: center;
+  }
+
+  .footer-col-phone {
+    order: 1;
+    margin-bottom: 3rem;
+  }
+
+  .footer-col-email {
+    order: 2;
+    margin-bottom: 3rem;
+  }
+
+  .footer-col-social {
+    order: 3;
+  }
+
+  .footer-col {
+    &:last-child {
+      order: 3;
+      text-align: right;
+    }
+  }
+
+  .footer-contacts-link {
+    font-size: 2.5rem;
+  }
+
+  .footer-info-inner {
+    flex-direction: column;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
 }
